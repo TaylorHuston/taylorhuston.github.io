@@ -1,0 +1,41 @@
+---
+layout: post
+title: My Development Environment
+date: 2015-05-23 01:45:26.000000000 -07:00
+categories: []
+tags: []
+status: draft
+type: post
+published: false
+meta:
+  _wpcom_is_markdown: '1'
+  _edit_last: '1'
+author:
+  login: taylor
+  email: taylor.a.huston@gmail.com
+  display_name: taylor
+  first_name: ''
+  last_name: ''
+excerpt: !ruby/object:Hpricot::Doc
+  options: {}
+---
+<p>I recently got the idea to throw in another hard drive into my computer and put Ubuntu on it. I've played with Linux on and off over the years, but now that I am getting more into Web Dev I think it's time to get serious with using it as my daily OS on my desktop. But I still have to keep Windows on it because, you know, games and stuff.</p>
+<p>But as long as I am swapping around SSDs and installing OSs, it's probably time to do something I try and do once a year anyways: re-install Windows. I like to do it regularly just to keep things fresh and running smoothly.</p>
+<p>Whenever I do this I always run into the trouble of remembering all of the apps and tools I need to install, any hiccups I run into along the way, etc. This is more of a problem when you're getting into things like Ruby, that don't always work well with Windows. So I decided that, for this fresh install, I would document everything I install. Keep it for reference for the next time I wipe and reinstall, maybe it will be helpful for someone else. Now I am no expert, and my setup is by no means the best fit for everything, but this is the stuff I use. And I am sure I will forget some things and will have to come back and add to this post later.</p>
+<p>1: Make sure you've got all your Windows Updates</p>
+<p>2: <a href="https://www.visualstudio.com/" target="_blank">Download Visual Studio</a><br />
+Visual Studio is a great IDE. I hate that it's not cross-platform, but it's still hands-down my favorite C++ IDE. I always install it first because I've run into trouble in the past of other programs needing some of the Visual Studio 'redistributable packages' it installs. For example I tried to run Cmder before installing it (the next step), but it couldn't run because my fresh install of Windows was missing some obscure .dll file. Installing VS fixed that. Go home Windows you're drunk. Anyways, it's a pretty long install, depending on your internet speed and if you have any old Visual Studio file it has to remove, it can take hours, so good to start it and then go watch some Netflix.</p>
+<p>3: <a href="http://gooseberrycreative.com/cmder/" target="_blank">Download Cmder</a><br />
+This is a great terminal emulator for Windows. I can't live without it. I just download the 'mini' version. The full version includes Git, but I'm going to be installing Git anyway so I think it's redundant. It does have some issues, but the guys who develop it are usually really good at responding to issues posted on the GitHub or in Gitter.</p>
+<p>4: <a href="https://git-scm.com/download/win" target="_blank">Download Git for Windows<br />
+</a>Pretty self explanatory. Make sure to check the options that add it to the PATH. Double check that you can <span class="lang:default decode:true  crayon-inline ">git --version</span>  from your command line afterwards.</p>
+<p>5: <a href="https://windows.github.com/" target="_blank">Download GitHub for Windows</a><br />
+Seems to be a pretty nice GUI for Git. I don't really use it because I am used to the command line, but I keep meaning to play with it, it seems like once you get used to using it it would definitely speed up your workflow.</p>
+<p>6: <a href="http://brackets.io/" target="_blank">Install Brackets</a><br />
+By far my favorite text editor. I use it for all of my basic HTML/CSS/JS/Rails work. Though I love IntelliJ (more on that in a bit) and I mean to try using it as a web dev IDE at some point. For my relatively small projects right now it's not a big deal, but could come in handy for larger products. The extensions I use are Git, Beautify, Minimap and Autoprefixer. There's also an Emmet extension if you're in to that, and a Brackets terminal extension that looked promising but I could never get to work, may check on that ion the future and see if an update has been released.</p>
+<p>7: <a href="http://railsinstaller.org/en" target="_blank">Install Ruby on Rails</a><a href="http://rubyinstaller.org/" target="_blank"><br />
+</a>This is a nice little bundle that installs everything you need to get started. Now technically it is slightly out of date. For example it installs Ruby 2.1.5 and Rails 4.1, while (as of this post) the latest versions are 2.2.2 and 4.2.1, respectively. I've tried going to manual install route directly from <a href="http://rubyinstaller.org/" target="_blank">Ruby Installer</a>, both 2.1.6 and 2.2.2, but it caused all sorts of headaches. Kept running into issues <a href="https://gist.github.com/luislavena/f064211759ee0f806c88" target="_blank">like this</a> which was preventing my from being able to install Bundler. Maybe if I had more time to really dig into it. Don't install Git, you already have it.  Verify that <span class="lang:default decode:true  crayon-inline">ruby -v</span>  works from command line after install. I'm still get the SSL error that I referenced above, but since the installer came with Bundler I can still get gems using <span class="lang:default decode:true  crayon-inline ">bundle install</span>  or <span class="lang:default decode:true  crayon-inline ">bundle update</span> . So it's not perfect, but it works until they release a patch or fix or something. Man developer Rails on Windows is a pain (one of the many reason I want to swap to Linux as my daily driver).</p>
+<p>8: <a href="https://java.com/en/download/manual.jsp" target="_blank">Install Java</a> and <a href="http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html" target="_blank">Java JDK</a><br />
+I normally just grab the latest version of the Java SE Development Kit. That works for everything I've come across so far. Run java -version and javac -version in your command prompt to make sure everything went fine.</p>
+<p>9: <a href="https://www.jetbrains.com/idea/" target="_blank">Install IntelliJ</a><br />
+IntelliJ is by far my favorite Java IDE. Never liked Eclipse. Netbeans isn't bad, but IntelliJ is definitely nicer.Got turned on to it after playing around with Android Studio. I managed to snag me a student license for the ultimate version, but the free community version should be more than enough for most people.</p>
