@@ -1,5 +1,6 @@
+_site/
 .sass-cache/
-.jekyll-
+.jekyll-metadata
 
 # Created by https://www.gitignore.io
 
