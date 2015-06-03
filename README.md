@@ -1,2 +1,2 @@
 # taylorhuston.github.io
-Directory of all of my projects
+My personal portfolio and blog
