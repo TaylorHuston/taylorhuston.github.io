@@ -50,3 +50,39 @@ $on-laptop:        800px;
         "layout",
         "syntax-highlighting"
 ;
+
+.mooc, .skills {
+  display: flex;
+
+
+  ul {
+    width: 30%;
+  }
+
+  @media screen and (max-width: $on-palm) {
+    flex-direction: column;
+
+    ul {
+      width: 100%;
+    }
+  }
+}
+
+.left {
+  width: 65%;
+  float: left;
+
+  @media screen and (max-width: $on-palm) {
+    width: 100%;
+  }
+}
+
+.right {
+  width: 30%;
+  float: right;
+
+  @media screen and (max-width: $on-palm) {
+    display: none;
+  }
+
+}
