@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Hello World
-date: 2015-01-07 00:00:38.000000000 -07:00
 categories:
 - Personal
 tags:
