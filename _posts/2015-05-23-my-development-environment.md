@@ -1,14 +1,13 @@
 ---
 layout: post
 title: My Development Environment
-date: 2015-05-23 01:45:26.000000000 -07:00
 categories: []
 tags: []
 status: draft
 type: post
 published: false
-
 ---
+
 <p>I recently got the idea to throw in another hard drive into my computer and put Ubuntu on it. I've played with Linux on and off over the years, but now that I am getting more into Web Dev I think it's time to get serious with using it as my daily OS on my desktop. But I still have to keep Windows on it because, you know, games and stuff.</p>
 <p>But as long as I am swapping around SSDs and installing OSs, it's probably time to do something I try and do once a year anyways: re-install Windows. I like to do it regularly just to keep things fresh and running smoothly.</p>
 <p>Whenever I do this I always run into the trouble of remembering all of the apps and tools I need to install, any hiccups I run into along the way, etc. This is more of a problem when you're getting into things like Ruby, that don't always work well with Windows. So I decided that, for this fresh install, I would document everything I install. Keep it for reference for the next time I wipe and reinstall, maybe it will be helpful for someone else. Now I am no expert, and my setup is by no means the best fit for everything, but this is the stuff I use. And I am sure I will forget some things and will have to come back and add to this post later.</p>
