@@ -13,7 +13,7 @@ published: true
 I've<a href="https://github.com/TaylorHuston/JSCMF" target="_blank"> started a repo</a> for a JavaScript based CMS system I plan on making. Well, I'm not even sure if CMS is the proper term. Right now I don't think it will be a Content Management System so much as a Content Management Framework built on top of Node. Less of a way to manage content, and more of a way for Web Designers to create sites quickly and efficiently.<br />
 Here's what I envision:
 
-Three directories<br />
+Three directories:<br />
 Skeletons<br />
 Themes<br />
 Content
@@ -30,4 +30,4 @@ So it's not really a CMS in the traditional sense. No web interface. No database
 
 Since I really have no idea what I am doing yet, and mostly making it up as I go at the moment, I wouldn't be surprised if most (if not all) of this changes by the time it's 'complete', but in any case it should be a really fun learning project!
 
-EDIT: Turns out this is really similar (I think) to what <a href="http://jekyllrb.com/" target="_blank">Jekyll </a>does, although Jekyll is ruby based. Oh wells.
+EDIT: Turns out this is really similar (I think) to what <a href="http://jekyllrb.com/" target="_blank">Jekyll </a>does, although Jekyll is ruby based. Oh well.

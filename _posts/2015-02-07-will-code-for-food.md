@@ -19,7 +19,7 @@ This job board is only for jobs, internships and apprenticeships for people stil
 
 Phase 1 – Right now this site is built using WordPress and <a href="http://www.wpjobmanager.com/" target="_blank">WP Job Manager</a>. Functionality is fairly limited. You can browse jobs and apply to them by following the link. It’s not what I envision, but I wanted to get something up ASAP.
 
->Phase 2 – The next phase will be a complete job board built from scratch. Partly because I think this will be fun to build, and partly because I really want to customize it for developers. Features I have in mind for phase 2 include:
+Phase 2 – The next phase will be a complete job board built from scratch. Partly because I think this will be fun to build, and partly because I really want to customize it for developers. Features I have in mind for phase 2 include:
 
 <ul>
   <li>Complete job-seeker profiles.</li>
@@ -32,6 +32,7 @@ Phase 1 – Right now this site is built using WordPress and <a href="http://www
 </ul>
 
 ===
-Like I mentioned in that blurb, right now it's just Wordpress. Not that there's anything wrong with Wordpress, it's what I use for this blog and despite some 'pro' developers looking down on it, I still happen to think it's a solid CMS. That being said I do plan on eventually building a custom solution for it. Not that I think it will be <em>better</em> than Wordpress, but because I think it would be a really god learning exercise and a great addition to my portfolio. I have no idea how successfull it will be, not because I don't think it's a good idea, but I really have no idea how to market or properly monetize it against the insane amount of job boards already out there. But who knows, it could take off and running it could be my full time job one day.
+
+Like I mentioned in that blurb, right now it's just Wordpress. Not that there's anything wrong with Wordpress, it's what I use for this blog and despite some 'pro' developers looking down on it, I still happen to think it's a solid CMS. That being said I do plan on eventually building a custom solution for it. Not that I think it will be <em>better</em> than Wordpress, but because I think it would be a really good learning exercise and a great addition to my portfolio. I have no idea how successful it will be, not because I don't think it's a good idea, but I really have no idea how to market or properly monetize it against the insane amount of job boards already out there. But who knows, it could take off and running it could be my full time job one day.
 
 Take a look and drop me a line if you like what you see, and on the off chance you're hiring go ahead and post a job!
