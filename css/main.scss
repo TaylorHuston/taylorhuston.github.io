@@ -56,7 +56,8 @@ $on-laptop:        800px;
 
 
   ul {
-    width: 30%;
+    flex: 1 1 auto;
+    min-width: 1;
   }
 
   @media screen and (max-width: $on-palm) {
