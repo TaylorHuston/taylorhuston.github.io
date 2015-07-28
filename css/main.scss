@@ -90,4 +90,8 @@ $on-laptop:        800px;
 
 .date {
   float: right;
+
+  @media screen and (max-width: $on-palm) {
+    float: none;
+  }
 }
