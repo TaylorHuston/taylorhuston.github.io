@@ -1,0 +1,14 @@
+---
+layout: post
+title: So Many Airports
+categories: []
+tags: []
+published: true
+
+---
+
+Well, I'm sitting in the Spokane airport waiting for my flight home. Well, my flight to Seattle to wait for my flight home actually. Sea Tac is a pretty cool airport, but I have spent way too much time there lately. It's been a fun vacation, but I am looking forward to getting back. I have definitely not been as productive as I would have liked the last few weeks. Too many distractions. Friends, family, weddings. Not that the wedding wasn't a lot of fun. It was a really nice ceremony, and we Air BnB'd a bro-pad for us groomsman that we've been hanging out in for the last few days. A lot of pizza, beer and Cards Against Humanity was had by all. But not a lot in the way of studying.
+
+The wedding was actually in Moscow, Id, the groom's hometown. I've never been to Idaho before, but this is a small liberal college town. Actually reminded me a lot of downtown Eugene, Or. Same vibe. Bicycle shops and organic artisan coffee shops as far as the eye can see. It really reminded me what I love about the Pacific Northwest though. Arizona has it's perks, I can see why some people would love it there, but it's not for me. Starting next week I'm going to start sending out resumes and I am really planning on targeting companies in Portland and Seattle. I love Portland, miss living there so much, but I think I would like Seattle as well. I get the impression there is a lot more in the way of dev jobs there (second only to Silicon Valley, but I really have no desire to spend $3000/mo on a studio apartment), and it definitely has more of a 'city' vibe. I mean it's no NYC, but it's a city. Portland has always felt less like a city and more like a town with a lot of people in it (which is a huge part of it's charm).
+
+There's a company in Portland called <a href="https://www.jivesoftware.com/" target="_blank">Jive Software</a> that a good friend of mine works at. They are currently looking for some entry-level Java developers and he said that if I apply he can guarantee me an interview. Not a job, but an interview. He's actually been bugging me to apply for a while but I think I've been putting it off because I didn't want to play that card until I had a little more practice/experience under my belt. I didn't want to use my connection with him to get me the interview and then bomb said interview because it's my first ever real technical interview and I was super nervous. But seeing all of my old Portland friends and everything this weekend has really made me miss Portland so, I think I am going to give it a shot. It's a Java position which is still my favorite language. I'll definitely need to take the next week or so to brush up on it since I've mainly been doing Rails and JavaScript stuff lately (and Android which is technically Java), but other than that I think my Java is solid enough that I won't completely embarass myself. Wish me luck.

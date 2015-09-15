@@ -4,7 +4,7 @@ email: taylor.a.huston@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Taylor Huston - Web and Mobile Developer.<br />
   Built with Jekyll.<br />
-  Hosted on GitHub Pages<br />
+  Hosted on GitHub Pages.<br />
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://www.taylorhuston.me" # the base hostname & protocol for your site
 twitter_username: taylorhu
