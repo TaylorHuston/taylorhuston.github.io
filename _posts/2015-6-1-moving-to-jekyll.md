@@ -6,7 +6,7 @@ categories:
 tags:
 - Jekyll
 published: true
-
+comments: true
 ---
 
 It's been a few weeks since my last post. The main reason for that is because I have been in the process of converting my blog over to Jekyll. If this is your first time here, it used to be a Wordpress blog. I just want to start off saying that I don't mind Wordpress. I mean, it's not perfect. PHP is such an ugly language, and Wordpress had a tendency to mess up some of the formatting of my pages/posts, but for the most part it still really is the best blogging platform out there, IMHO. But I figured having my personal portfolio site as WordPress wouldn't win my any points with other developers. Something like Jekyll, I think, will give me a bit more 'geek cred'. And I can definitely see the appeal of something like Jekyll. It's really lightweight and super flexible. Perfect for something technical, like the personal blog/portfolio of a developer. And I am have just scratched the surface of it I am sure, so I am willing to bet there's a lot of cool tricks I haven't discovered yet. I still need to learn Liquid for templates, and some other things, but so far I enjoy it.

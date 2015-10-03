@@ -8,6 +8,7 @@ tags:
 - InfoSec
 - IT
 published: true
+comments: true
 ---
 
 I get distracted easily. Or maybe a nicer way of putting it is I have a lot of interests.

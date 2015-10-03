@@ -1,10 +1,12 @@
 ---
 layout: post
 title: So Many Airports
-categories: []
-tags: []
+categories:
+- Progress
+tags: 
+- Java
 published: true
-
+comments: true
 ---
 
 Well, I'm sitting in the Spokane airport waiting for my flight home. Well, my flight to Seattle to wait for my flight home actually. Sea Tac is a pretty cool airport, but I have spent way too much time there lately. It's been a fun vacation, but I am looking forward to getting back. I have definitely not been as productive as I would have liked the last few weeks. Too many distractions. Friends, family, weddings. Not that the wedding wasn't a lot of fun. It was a really nice ceremony, and we Air BnB'd a bro-pad for us groomsman that we've been hanging out in for the last few days. A lot of pizza, beer and Cards Against Humanity was had by all. But not a lot in the way of studying.

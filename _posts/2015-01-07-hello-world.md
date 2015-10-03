@@ -7,7 +7,7 @@ tags:
 - Android
 - Coursera
 published: true
-
+comments: true
 ---
 
 Hello World, and welcome to my blog.

@@ -7,6 +7,7 @@ tags:
 - TreeHoue
 - Code School
 published: true
+comments: true
 ---
 I've basically been teaching myself computer science. Yes, I have been auditing classes from my <a href="http://www.uat.edu/" target="_blank">Alma Mater</a>, but even that's been mainly self teaching. Since it's through their online program, and there are no video lectures or anything, most of the classes consist entirely of an assigned textbook, assigned reading from that textbook, assigned homework (usually also from that textbook) and a weekly 'lecture' that is almost always nothing more than a Powerpoint of what are basically cliff notes from the assigned reading. Now I am not sure why a university that costs tens of thousands of dollars a year, and has 'Advancing Technology' in it's name, can't manage to put up YouTube videos of their lectures for the online students, but that's a complaint for another post.
 

@@ -8,8 +8,9 @@ tags:
 - Ruby/Rails
 - WCFF
 published: true
-
+comments: true
 ---
+
 It's been a bit since I've posted. Been kind of a heavy/busy last couple of weeks.
 
 In my first post I briefly mentioned that there were some health issues in my family, which was in no small part one of my inspirations for taking my career a bit more seriously. Well I bring it up now because those health issues have cropped back up. Specifically my sister has ovarian cancer, and it was in remission, but it's came back with a vengeance. Last week they started her on a four month aggressive chemo plan. Pretty scary stuff. While I plan on keeping this blog as 'professional' as possible (won't see any posts about my views on politics, of which I have many, or anything like that), I felt as if I should mention since it is a pretty big thing. Been mainly dealing with that for the last few weeks. My immediate gut reaction was, of course, to throw everything I could into my car and drive up to Alaska to be near her while she's going through this. 

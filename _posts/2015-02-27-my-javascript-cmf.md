@@ -8,6 +8,7 @@ tags:
 - JavaScript
 - Node
 published: true
+comments: true
 ---
 
 I've<a href="https://github.com/TaylorHuston/JSCMF" target="_blank"> started a repo</a> for a JavaScript based CMS system I plan on making. Well, I'm not even sure if CMS is the proper term. Right now I don't think it will be a Content Management System so much as a Content Management Framework built on top of Node. Less of a way to manage content, and more of a way for Web Designers to create sites quickly and efficiently.<br />

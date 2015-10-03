@@ -7,6 +7,7 @@ tags:
 - JavaScript
 - Lynda
 published: true
+comments: true
 ---
 
 I'm sure if you're reading this you've seen at least on YouTube pre-roll ad for <a href="http://www.lynda.com/" target="_blank">Lynda.com</a>. And I am here to tell you that if you've been on the fence about signing up, you should probably do it. Just to get this out of the way, I'm not like connected to Lynda in any way, I don't have an affiliate partnership or anything, not making any money for referring people to them. I just recently re-signed up for their service and, so far, have been really impressed. I actually had an account with them a while back and canceled it, for some reason. Can't remember why. But I wanted to watch some of their photography videos for fun, so I signed up for a month. Had every intention of canceling it before it renewed, but now I am definitely going to keep it for a while.

@@ -7,6 +7,7 @@ tags:
 - JavaScript
 - Ruby/Rails
 published: true
+comments: true
 ---
 
 I've decided that, for the time being, I am going to focus most of my web related studying on JavaScript (and it's various libraries). I was working through <a href="http://www.theodinproject.com/users/6736" target="_blank">The Odin Project</a>, which is definitely a great project and a great curriculum, but it's primarily Ruby?rails focused. Not that there's anything wrong with Ruby, that was my first exposure to it and I can certainly see why people like it. But coming from a C++/Java background, I just find the syntax of JavaScript to be much more intuitive. Curly brackets, semicolons, all that jazz.

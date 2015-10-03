@@ -6,8 +6,9 @@ categories:
 tags:
 - Algorithms
 - Java
-- Rails
+- Ruby/Rails
 published: true
+comments: true
 ---
 
 Well, like the title says, I finally finished the Lynda <a href="http://www.lynda.com/ViewCertificate/B415945D75004B3B88CD7A106F9F0112" target="_blank">Ruby On Rails 4 Essentials</a> course. Took me a lot longer than I thought. While it's just under 13 hours of video content in actuality it takes about twice that to get through it. You'll end up frequently pausing to copy down code, complete 'assignments', try things out, get a snack, etc. Still, I can't recommend the course enough. I found it much more comprehensive than either the <a href="https://class.coursera.org/webapplications-003" target="_blank">Coursera course</a> (which I am STILL waiting on them to finish grading so I can get my certificate that I paid for) or <a href="https://www.railstutorial.org/" target="_blank">Hartl's tutorial</a> (which I haven't finished yet). While I am definitely not an expert, I feel like I am now at the point where I could interview for a Jr. Rails Developer position and not make a total fool out of myself.

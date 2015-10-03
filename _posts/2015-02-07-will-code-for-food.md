@@ -6,6 +6,7 @@ categories:
 tags:
 - WCFF
 published: true
+comments: true
 ---
 I've decided to make a job board, <a href="http://willcodeforfood.io/" target="_blank">Will Code For Food</a>.
 

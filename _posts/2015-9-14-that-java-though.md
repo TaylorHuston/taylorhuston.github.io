@@ -6,9 +6,9 @@ categories:
 tags: 
 - Java
 - Ruby/Rails
-- Full Stack JS
+- JavaScript
 published: true
-
+comments: true
 ---
 
 Been studying up on my Java. Haven't applied for the job at <a href="https://www.jivesoftware.com/" target="_blank">Jive Software</a> yet, wanted to refresh my Java first. Worked my way through the 2015 updated version of <a href="http://www.lynda.com/AllCertificates/User/1103034" target="_blank">Java Essential Training</a> on Lynda last week. And finally finish re-reading through <a href="http://algs4.cs.princeton.edu/home/" target="_blank">Algorithms, 4th Ed</a>. Been slacking on that. 

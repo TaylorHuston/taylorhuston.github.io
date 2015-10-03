@@ -7,6 +7,7 @@ tags:
 - Apple
 - Macbook
 published: true
+comments: true
 ---
 I've always thought Apple products were all flash, no substance. Could never see why anyone would want to buy one. Then I went and got myself a Macbook Pro...and I love it.
 

@@ -6,6 +6,7 @@ categories:
 tags:
 - Typing
 published: true
+comments: true
 ---
 I use a weird, hover my hands over the keyboard and use primarily my pointer and index fingers to type style of typing. Kind of like hunt-and-peck, without the hunt part. It works decently well. When I am on a good streak and I am typing something simple (not code) I can probably break 60 wpm.
 

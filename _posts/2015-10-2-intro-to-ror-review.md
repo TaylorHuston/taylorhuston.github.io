@@ -6,7 +6,7 @@ categories:
 tags: 
 - Ruby/Rails
 published: true
-
+comments: true
 ---
 
 I am going to start reviewing all of the Coursera courses I am taking. This is a review of the first course <a href="https://www.coursera.org/specializations/full-stack" target="_blank">Ruby on Rails Web Development Specialization</a>, titled 'Ruby on Rails: An Introduction'. 

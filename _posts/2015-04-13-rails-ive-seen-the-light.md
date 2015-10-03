@@ -8,6 +8,7 @@ tags:
 - Rails
 - Ruby
 published: true
+comments: true
 ---
 
 I know it's been a while since I've posted. Honestly, nothing particularly noteworthy has happened. But I thought it'd be good to touch base.
