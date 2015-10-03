@@ -8,9 +8,6 @@ tags:
 - Macbook
 published: true
 ---
-
-I've recently had a case of eating my own words.
-
 I've always thought Apple products were all flash, no substance. Could never see why anyone would want to buy one. Then I went and got myself a Macbook Pro...and I love it.
 
 I have a Windows desktop because I like to build my machines and tweak my hardware. I'm a PC gamer. I regularly swap out and overclock video cards, add more ram, move my fans around trying to maximize airflow, etc. My first computer was a Gateway my mom bought for me, every computer I've had since I built myself.

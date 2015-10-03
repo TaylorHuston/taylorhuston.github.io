@@ -1,14 +1,18 @@
 ---
 layout: post
 title: Checking In
-categories: []
-tags: []
+categories: 
+- Progress
+tags: 
+- Lynda
+- Ruby/Rails
+- WCFF
 published: true
 
 ---
 It's been a bit since I've posted. Been kind of a heavy/busy last couple of weeks.
 
-In my first post I briefly mentioned that there were some health issues in my family, which was in no small part one of my inspirations for taking my career a bit more seriously. Well I bring it up now because those health issues have cropped back up. Specifically my sister has ovarian cancer, and it was in remission, but it's came back with a vengeance. Last week they started her on an four month aggressive chemo plan. Pretty scary stuff. While I plan on keeping this blog as 'professional' as possible (won't see any posts about my views on politics, of which I have many, or anything like that), I felt as if I should mention since it is a pretty big thing. Been mainly dealing with that for the last few weeks. My immediate gut reaction was, of course, to throw everything I could into my car and drive up to Alaska to be near her while she's going through this. 
+In my first post I briefly mentioned that there were some health issues in my family, which was in no small part one of my inspirations for taking my career a bit more seriously. Well I bring it up now because those health issues have cropped back up. Specifically my sister has ovarian cancer, and it was in remission, but it's came back with a vengeance. Last week they started her on a four month aggressive chemo plan. Pretty scary stuff. While I plan on keeping this blog as 'professional' as possible (won't see any posts about my views on politics, of which I have many, or anything like that), I felt as if I should mention since it is a pretty big thing. Been mainly dealing with that for the last few weeks. My immediate gut reaction was, of course, to throw everything I could into my car and drive up to Alaska to be near her while she's going through this. 
 
 That's a big reason as to why I've kept the job I have as long as I have. Working from home is kind of a wash. Yes the commute is fantastic, but man do I miss human contact. But having a telecommute job has made it easy to hop on a plane back home whenever I want to go visit. I have been going up a few times a year. Christmas, the State Fair, I drove up one summer and my sister and I just spent three months hiking and camping and zip-lining and all the Alaskan things. 
 
@@ -19,7 +23,3 @@ In other news, I've put a lot of work into <a href="http://www.willcodeforfood.i
 I started CS318 - Software Engineering Principles through UAT. It's a team based class, groups of 5 working together to plan and eventually build a simple application. Naturally I volunteered to be Lead Developer and to build the project in Rails. Reading wise, it's a pretty heavy workload course. Few chapters from the textbook along with several external PDFs each week. I think that's going to be taking up most of my time over the next few weeks.
 
 I've also started a <a href="https://iwritecodeslack.herokuapp.com/" target="blank">Public Slack Room</a> for programmers and developers to come hang out in. Been finding difficulty in getting the word out about it. I posted it to some Subreddits, where it was immediately downvoted, because Reddit, as well as some programmer/developer Facebook groups I belong to. As of right now I've had over 40 people sign up, though there are usually less than 10 on at any given time. I hope to change that over time, I think it could be a great community for developers to meet, ask question, swap ideas, etc. Kind of like IRC but with a better interface. Time will tell if it takes off or not.
-
-And finally I have decided to start applying for some programming bootcamps. I think I have a really solid foundation from my self studying and auditing, more so than a lot of people that enter bootcamps. Going through one, I think, will be a great way to fill in any remaining gaps, not to mention the networking and job support opportunities. One of my concerns is still that, while I can audit classes all day long, I will never have an on-paper CS degree. So I am thinking that audited classes + bootcamp alumni will be a close second.
-
-Wish me luck!

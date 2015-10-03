@@ -1,8 +1,11 @@
 ---
 layout: post
 title: Lynda Android
-categories: []
-tags: []
+categories: 
+- Progress
+tags:
+- Android
+- Cryptography
 published: true
 
 ---
