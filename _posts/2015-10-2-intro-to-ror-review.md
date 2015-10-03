@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Ruby on Rails: An Introduction - Review
+title: Ruby on Rails, An Introduction - Review
 categories: 
 - Review
 tags: 

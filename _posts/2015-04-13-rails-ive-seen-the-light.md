@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Rails: I've Seen The Light
+title: Rails, I've Seen The Light
 categories:
 - Progress
 tags:
