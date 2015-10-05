@@ -1,6 +1,6 @@
 ---
 layout: post
-title: HTML, CSS and JavaScript, a review
+title: HTML, CSS and JavaScript - Review
 categories: 
 - Review
 tags: 
