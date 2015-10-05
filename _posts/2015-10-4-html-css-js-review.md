@@ -19,6 +19,6 @@ Content wise, it's not very good either. It's a very introductory course, so for
 
 Second week is a little better. It serves as a crash course to JavaScript syntax. But not just syntax, the instructor tries to cover all essentially all of the basic computer science fundamentals. From variables to loops to functions, and beyond. Nothing he says is incorrect, but there's no way you can fit all of that into an hour or so worth of lectures. It comes off as very rushed and incomplete. If you've already got some programming experience then you'll just be bored. But if this was your first experience really programming anything, I think it'd be more confusing than anything. It's like he's not sure if he's teaching just a JS syntax class or an intro to CS class.
 
-Third week is just more JS syntax. At least he doesn't try and rush through any more CS concepts. Again, all accurate information, and some good examples. Nothing to write home about, but it gets the job done.
+Third week is just more JS syntax. At least he doesn't try to rush through any more CS concepts. Again, all accurate information, and some good examples. Nothing to write home about, but it gets the job done.
 
 So this course isn't good, but chances are you're not taking it standalone, you're taking it to as part of the specialization. Time will tell if the rest of the classes are good enough to justify the total price ($474 in total) or not. But if you're just looking for a standalone course to teach you the basics of HTML, CSS and JavaScript, look elsewhere. There are much better options.
