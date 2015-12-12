@@ -1,3 +1,6 @@
 # TaylorHuston.me
-My personal portfolio website.<br />
-Built with Jekyll
+
+My blog, resume, portfolio website.
+
+Built with Jekyll.
+Hosted on GitHub Pages.
