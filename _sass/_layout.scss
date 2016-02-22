@@ -7,7 +7,8 @@
     min-height: 56px;
 
     // Positioning context for the mobile navigation icon
-    position: relative;
+    position: fixed;
+    width: 100%;
 }
 
 .site-title {
@@ -23,14 +24,14 @@
     &:visited {
         color: $grey-color-dark;
     }
-  
+
 }
 
 .site-title-small {
     font-size: 20px;
 //    letter-spacing: -1px;
     margin-bottom: 0;
-  font-style: italic;
+    font-style: italic;
 }
 
 .site-subtitle {
@@ -178,7 +179,7 @@
  * Page content
  */
 .page-content {
-    padding: $spacing-unit 0;
+    padding: $spacing-unit*2.5 0;
 }
 
 .page-heading {
@@ -204,6 +205,51 @@
     font-size: 24px;
 }
 
+
+.mooc, .skills {
+  display: flex;
+
+
+  ul {
+    flex: 1 1 100%;
+    min-width: 1;
+  }
+
+  @media screen and (max-width: $on-palm) {
+    flex-direction: column;
+
+    ul {
+      width: 100%;
+    }
+  }
+}
+
+.left {
+  width: 65%;
+  float: left;
+
+  @media screen and (max-width: $on-palm) {
+    width: 100%;
+  }
+}
+
+.right {
+  width: 30%;
+  float: right;
+
+  @media screen and (max-width: $on-palm) {
+    display: none;
+  }
+
+}
+
+.date {
+  float: right;
+
+  @media screen and (max-width: $on-palm) {
+    float: none;
+  }
+}
 
 /**
  * Posts
