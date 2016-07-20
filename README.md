@@ -1,6 +1,6 @@
 #TaylorHuston.me
 
-My portfolio website
+My portfolio and information website
 
-Built with JekyllRB<br />
+Built with Jekyll<br />
 Hosted on GitHub Pages
