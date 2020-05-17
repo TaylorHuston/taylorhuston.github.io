@@ -1,6 +1,7 @@
 _site/
 .sass-cache/
 .jekyll-metadata
+Gemfile.lock
 
 # Created by https://www.gitignore.io
 
