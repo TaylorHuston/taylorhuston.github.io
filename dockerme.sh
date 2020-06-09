@@ -1,0 +1,1 @@
+docker run --name newblog --volume="$PWD:/srv/jekyll" -p 4000:4000 -it jekyll/jekyll /bin/sh 
