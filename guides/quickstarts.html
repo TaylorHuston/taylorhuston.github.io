@@ -1,6 +1,70 @@
 ---
 layout: page
-title: quickstarts
+title: Jira Server Quickstart
 ---
 
-Test
+<p>This is a quickstart guide to getting an instance of Jira Server up and running inside of AWS quickly. It's not particularly secure or robust, but if you need something up for some quick testing or development this should work.</p>
+<h2>Create three Security Groups</h2>
+<p>Start off by making a few Security Groups.
+    <ul>
+        <li>One for the Elastic Load Balancer. Add an inboud rule for port 80.</li>
+        <li>One for the Application Node. Add an inbound rule for port 8080 from the ELB security group. Add an inbound rule for SSH from your computer.</li>
+        <li>One for the RDS. Add an inbound rule for port 5432 from the Application Node security group.</li>
+    </ul>
+</p>
+<h2>Create an EC2 instance</h2>
+<p>After that, you'll want to create an actual EC2 instance. This guide assumes you've already <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-key-pairs.html" target="_blank">set up at least one Key-Pair for your AWS account</a>.
+    <ul>
+        <li>Launch a new EC2 instace</li>
+        <li>Amazon Linux should be fine and will be assumed for the rest of this guide</li>
+        <li>Select at least a t2.medium, anything lower and Jira won't be able to load</li>
+        <li>Select a Public Subnet</li>
+        <li>Best practice would be to add a meaningful tag</li>
+        <li>Use the Application Node Security Group</li>
+        <li>Use whatever Key-Pair you'd like</li>
+    </ul>
+</p>
+<h2>Create a Load Balancer</h2>
+<p>Next you'll want to create a load balancer. Since you're only using one node, this isn't strictly necessary, but it doesn't cost anything and it's the easiest way to do the port 80-8080 mapping, and is a good best practice to get in the habit of.
+    <ul>
+        <li>Create an Application Load Balancer</li>
+        <li>Internet Facing</li>
+        <li>Assign it to one of the Public Subnets in your VPC</li>
+        <li>Create a new Target Group, use port 8080</li>
+        <li>Add the EC2 instance for the Jira Node you created above.</li>
+    </ul>
+</p>
+<h2>Create an RDS</h2>
+<p>After that, you'll need to create the database for Jira to talk to. These instructions are for PostgreSQL 11, the latest supported platform as of this writing.
+    <ul>
+        <li>Use Standard create</li>
+        <li>Select the latest PostgreSQL 11 available</li>
+        <li>Set a master username and strong password</li>
+        <li>I've gotten away with as low as the t2.micro tier, of course you may want to choose something bigger depending on how much use you expect this isntance to get</li>
+        <li>Make sure to expane the Additional connectivity configuration dropdown and make sure to select the Security Group you created</li>
+    </ul>
+</p>
+<h2>Install the Application</h2>
+<p>
+    <ul>
+        <li>SSH into your EC2 instnace (remember to use your pem file and the ec2-user account)</li>
+        <li>Install Jira, default settings should be fine.<br />
+            <code>
+            $ wget https://www.atlassian.com/software/jira/downloads/binary/atlassian-jira-software-8.13.0-x64.bin <br />
+            $ chmod +x atlassian-jira-software-8.13.0-x64.bin <br />
+            $ sudo ./atlassian-jira-software-8.13.0-x64.bin<br />
+            </code>
+        </li>
+        <li>Set up the DB. Youll obviously need to use the endpoint for your RDS, along with a better username and password.<br />
+            <code>
+            $ sudo amazon-linux-extras install postgresql10 <br />
+            $ psql -U postgres -h YOUR_RDS_ENDPOINT <br /> 
+            postgres=> CREATE DATABASE jiradb WITH ENCODING 'UNICODE' LC_COLLATE 'C' LC_CTYPE 'C' TEMPLATE template0; <br />
+            CREATE USER jiradbuser with encrypted password 'SOME_PASSWORD'; <br />
+            postgres=> exit <br />
+            </code>
+        </li>
+    </ul>
+</p>
+<h2>Complete Setup</h2>
+<p>Navigate to the web address of your ELB, go through the Jira setup UI as normal.</p>
