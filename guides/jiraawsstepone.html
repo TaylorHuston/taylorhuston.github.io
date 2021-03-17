@@ -29,9 +29,10 @@ title: Jira Server Quickstart
     <ul>
         <li>Create an Application Load Balancer</li>
         <li>Internet Facing</li>
-        <li>Assign it to one of the Public Subnets in your VPC</li>
+        <li>Assign it to the Public Subnets in your VPC</li>
+        <li>Use the ELB Security Group</li>
         <li>Create a new Target Group, use port 8080</li>
-        <li>Add the EC2 instance for the Jira Node you created above.</li>
+        <li>Add the EC2 instance for the Jira Node you created above as a Registered Target</li>
     </ul>
 </p>
 <h2>Create an RDS</h2>
@@ -40,8 +41,8 @@ title: Jira Server Quickstart
         <li>Use Standard create</li>
         <li>Select the latest PostgreSQL 11 available</li>
         <li>Set a master username and strong password</li>
-        <li>I've gotten away with as low as the t2.micro tier, of course you may want to choose something bigger depending on how much use you expect this isntance to get</li>
-        <li>Make sure to expane the Additional connectivity configuration dropdown and make sure to select the Security Group you created</li>
+        <li>I've gotten away with as low as the t2.micro tier, of course you may want to choose something bigger depending on how much use you expect this instance to get</li>
+        <li>Make sure to expand the Additional connectivity configuration dropdown and make sure to select the RDS Security Group you created</li>
     </ul>
 </p>
 <h2>Install the Application</h2>
@@ -60,8 +61,8 @@ title: Jira Server Quickstart
             $ sudo amazon-linux-extras install postgresql10 <br />
             $ psql -U postgres -h YOUR_RDS_ENDPOINT <br /> 
             postgres=> CREATE DATABASE jiradb WITH ENCODING 'UNICODE' LC_COLLATE 'C' LC_CTYPE 'C' TEMPLATE template0; <br />
-            CREATE USER jiradbuser with encrypted password 'SOME_PASSWORD'; <br />
-            postgres=> exit <br />
+            postgres=> CREATE USER jiradbuser with encrypted password 'SOME_PASSWORD'; <br />
+            postgres=> \q <br />
             </code>
         </li>
     </ul>
